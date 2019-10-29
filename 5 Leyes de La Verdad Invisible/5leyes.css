@@ -1,0 +1,50 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html{
+	background-image: 	linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("main.jpg");
+	font-family: "Sakkal Majalla";
+	font-size: 30px;
+	background-position: center;
+}
+body{
+	width: 80%;
+	margin: 0 auto;
+	color: #fff;
+	max-width: 900px;
+}
+header{
+	margin: 5% 0 10% 0;
+	background-color: rgba(192,205,39,0.5);
+}
+
+header h1,h2{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.5em;
+}
+ol{
+	margin-left: 10%;
+	width: 100%;
+}
+
+li{
+		font-size: 1.5em;
+}
+span{
+	font-size: 1.3em;
+	color: #E8F32A;
+	opacity: 1;
+}
+details{
+	margin: 5% 0 10% 0;
+	background-color: rgba(192,205,39,0.5);
+	font-size: 1.2em;
+}
+footer{
+	background-color: rgba(1,0,1,0.5);;
+	text-align: center;
+	padding: 3% 0;
+}
